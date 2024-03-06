@@ -120,6 +120,6 @@ public class BookingService {
                 //When we store this object into DB , it will return back the object with Booking ID.
               Booking savedBooking =  bookingRepository.save(booking);
 
-                return  savedBooking ;
+                return  savedBooking;
        }
 }
