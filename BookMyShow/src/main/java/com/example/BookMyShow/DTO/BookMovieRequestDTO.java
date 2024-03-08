@@ -14,7 +14,7 @@ public class BookMovieRequestDTO {
     
     private long showId;
 
-    private List<Long> showSeatId;
+    private List<Long> showSeatId; 
 
     
 }
