@@ -32,6 +32,7 @@ drop database BookMyShow;]]></console>
     <connection id="f0b74b89-ff9e-4b49-9c23-3bdde440466c" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="f0b74b89-ff9e-4b49-9c23-3bdde440466c" dataset="bookmyshow.user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f0b74b89-ff9e-4b49-9c23-3bdde440466c" dataset="bookmyshow.booking" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">

@@ -6,8 +6,11 @@ import com.example.BookMyShow.Model.ShowSeat;
 import com.example.BookMyShow.Model.ShowSeatType;
 import com.example.BookMyShow.Repository.ShowSeatTypeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
+
+@Service
 public class PriceCalculatorService {
 
     ShowSeatTypeRepository showSeatTypeRepository;

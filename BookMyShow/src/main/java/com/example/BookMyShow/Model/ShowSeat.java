@@ -16,7 +16,7 @@ import java.util.Date;
 public class ShowSeat extends  BaseModel {
 
     @ManyToOne
-    private Show Show;
+    private Show show;
     @ManyToOne
     private Seat seat;
     @Enumerated (EnumType.ORDINAL)
